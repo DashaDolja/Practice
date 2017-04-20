@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8758B6E1EA94B4B0012CF53 /* Exercise10.m in Sources */ = {isa = PBXBuildFile; fileRef = C8758B6D1EA94B4B0012CF53 /* Exercise10.m */; };
 		C8ACE40B1EA4B1DF006D0676 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ACE40A1EA4B1DF006D0676 /* main.m */; };
 		C8ACE4131EA4B242006D0676 /* Class1.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ACE4121EA4B242006D0676 /* Class1.m */; };
 		C8ACE41A1EA809A1006D0676 /* CalculatorReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ACE4191EA809A1006D0676 /* CalculatorReturn.m */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C8758B6C1EA94B4B0012CF53 /* Exercise10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise10.h; sourceTree = "<group>"; };
+		C8758B6D1EA94B4B0012CF53 /* Exercise10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise10.m; sourceTree = "<group>"; };
 		C8ACE4071EA4B1DF006D0676 /* Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8ACE40A1EA4B1DF006D0676 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8ACE4111EA4B242006D0676 /* Class1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Class1.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				C8ACE40A1EA4B1DF006D0676 /* main.m */,
+				C8758B6C1EA94B4B0012CF53 /* Exercise10.h */,
+				C8758B6D1EA94B4B0012CF53 /* Exercise10.m */,
 				C8ACE4111EA4B242006D0676 /* Class1.h */,
 				C8ACE4121EA4B242006D0676 /* Class1.m */,
 				C8ACE4181EA809A1006D0676 /* CalculatorReturn.h */,
@@ -137,6 +142,7 @@
 				C8ACE4131EA4B242006D0676 /* Class1.m in Sources */,
 				C8ACE40B1EA4B1DF006D0676 /* main.m in Sources */,
 				C8ACE41A1EA809A1006D0676 /* CalculatorReturn.m in Sources */,
+				C8758B6E1EA94B4B0012CF53 /* Exercise10.m in Sources */,
 				C8ACE41D1EA80C99006D0676 /* Exercise9.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +272,7 @@
 				C8ACE4101EA4B1DF006D0676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

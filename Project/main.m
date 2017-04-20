@@ -8,12 +8,12 @@
 
 #import <Foundation/Foundation.h>
 //#import "CalculatorReturn.h"
-#import "Exercise9.h"
+#import "Exercise10.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
        //[CalculatorReturn arithmetic];
-       [Exercise9 additionalMethods];
+       [Exercise10 memoryMethod];
         // insert code here...
         //NSLog(@"Hello, World!");
     }
