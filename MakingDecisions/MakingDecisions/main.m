@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Accumulator_6.h"
+//#import "Accumulator_6.h"
+#import "SimplePrintingCalculator_3.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        [Accumulator_6 arithmetic];
+        //[Accumulator_6 arithmetic];
+       [SimplePrintingCalculator_3 methodNumber_Operator];
     }
     return 0;
 }
