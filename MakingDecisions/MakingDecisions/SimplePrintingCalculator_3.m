@@ -83,30 +83,32 @@
         
         if (operator == 'S'){
             [deskCalc setAccumulator: value];
-            NSLog (@"= %lf", [deskCalc accumulator]);
+            NSLog (@"= %.2lf", [deskCalc accumulator]);
         }
         else if (operator == '+'){
                 [deskCalc add: value];
-                NSLog (@"= %lf", [deskCalc accumulator]);
+                NSLog (@"= %.2lf", [deskCalc accumulator]);
         }
         else if (operator == '-'){
                 [deskCalc subtract: value];
-                NSLog (@"= %lf", [deskCalc accumulator]);
+                NSLog (@"= %.2lf", [deskCalc accumulator]);
         }
         else if (operator == '*'){
                 [deskCalc multiply: value];
-                NSLog (@"= %lf", [deskCalc accumulator]);
+                NSLog (@"= %.2lf", [deskCalc accumulator]);
         }
         else if (operator == '/'){
                 if (value == 0) {
                     NSLog (@"Division by zero");
                     [deskCalc setAccumulator: NAN];
                 }
-                else
+                else {
                     [deskCalc divide: value];
+                    NSLog (@"= %.2lf", [deskCalc accumulator]);
+                }
         }
         else if (operator == 'E') {
-                NSLog (@"= %lf", [deskCalc accumulator]);
+                NSLog (@"= %.2lf", [deskCalc accumulator]);
                 NSLog (@"End of Calculations.");
                 break;
         }

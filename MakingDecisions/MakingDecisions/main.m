@@ -7,13 +7,40 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import "Accumulator_6.h"
-#import "SimplePrintingCalculator_3.h"
-
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        //[Accumulator_6 arithmetic];
-       [SimplePrintingCalculator_3 methodNumber_Operator];
+        int n, r, count, sum, i, x;
+        
+        NSLog (@"Enter number");
+        scanf ("%i", &n);
+        sum = 0;
+        count = 0;
+        x = n;
+        while (x != 0){
+            r = x % 10;
+            x = x / 10;
+            count += 1;
+            if (x == 0){
+               for (count = count -1; count >= 0; count = count -1){
+                   i = n / pow(10, count);
+                   n = n % (int) pow(10, count);
+                   
+                   switch (i) {
+                       case 1:
+                           NSLog (@"one");
+                           break;
+                       case 2:
+                           NSLog (@"two");
+                           break;
+                       case 3:
+                           NSLog (@"three");
+                           break;
+                   }
+               }
+                
+           }
+        }
+        
     }
     return 0;
 }
