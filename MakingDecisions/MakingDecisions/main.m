@@ -9,10 +9,11 @@
 #import <Foundation/Foundation.h>
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        int n, r, count, sum, i, x;
-        
+       long int n, r, count, sum, i, x;
+       NSMutableString *mutableString = [NSMutableString new];
+
         NSLog (@"Enter number");
-        scanf ("%i", &n);
+        scanf ("%li", &n);
         sum = 0;
         count = 0;
         x = n;
@@ -23,21 +24,43 @@ int main(int argc, const char * argv[]) {
             if (x == 0){
                for (count = count -1; count >= 0; count = count -1){
                    i = n / pow(10, count);
-                   n = n % (int) pow(10, count);
+                   n = n % (long int) pow(10, count);
                    
                    switch (i) {
+                       case 0:
+                           [mutableString appendString:@" Zero"];
+                           break;
                        case 1:
-                           NSLog (@"one");
+                           [mutableString appendString:@" One"];
                            break;
                        case 2:
-                           NSLog (@"two");
+                           [mutableString appendString:@" Two"];
                            break;
                        case 3:
-                           NSLog (@"three");
+                           [mutableString appendString:@" Three"];
                            break;
+                       case 4:
+                           [mutableString appendString:@" Four"];
+                           break;
+                       case 5:
+                           [mutableString appendString:@" Five"];
+                           break;
+                       case 6:
+                           [mutableString appendString:@" Six"];
+                           break;
+                       case 7:
+                           [mutableString appendString:@" Seven"];
+                           break;
+                       case 8:
+                           [mutableString appendString:@" Eight"];
+                           break;
+                       case 9:
+                           [mutableString appendString:@" Ten"];
+                           break;
+                           
                    }
                }
-                
+               NSLog(@"%@", mutableString);
            }
         }
         
