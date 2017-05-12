@@ -7,42 +7,32 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Modify_Print_Method_FractionClass_2.h"
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        [Modify_Print_Method_FractionClass_2 modifyPrint];
         
-/*
-        int  number, right_digit;
-        NSMutableString *mutableString = [NSMutableString new];
+        int p, d;
+        float even;
+        BOOL isPrime;
         
-        NSLog (@"Enter your number.");
-        scanf ("%i", &number);
+        NSLog (@"2");
         
-        BOOL Negative = NO;
-        if (number < 0){
-            number = -number;
-            Negative = YES;
+        for ( p = 3; p <= 50; ++p ) {
+            isPrime = YES;
+            even = p % 2;
+            
+            if (even != 0){
+            
+                for ( d = 2; isPrime == YES && (d < p); ++d ){
+                    if (p % d == 0)
+                        isPrime = NO;
+                }
+                if (isPrime == YES)
+                    NSLog (@"%i ", p);
+            }
         }
-        else if (number  == 0)
-            [mutableString appendString: @"Zero"];
-        
-        while (number != 0) {
-            right_digit = number % 10;
-            [mutableString appendString:[NSString stringWithFormat:@"%i", right_digit]];
-            number /= 10;
-        }
-        
-        
-        if (Negative)
-            [mutableString appendString:@"-"];
-        
-        NSLog(@"%@", mutableString);
-
-*/
     }
-   
     
     return 0;
 }
