@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Modify_Print_Method_FractionClass_2 : NSObject
++ (void) modifyPrint;
 
 @end

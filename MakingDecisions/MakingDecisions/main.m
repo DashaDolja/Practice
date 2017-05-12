@@ -7,8 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Modify_Print_Method_FractionClass_2.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        [Modify_Print_Method_FractionClass_2 modifyPrint];
+        
+/*
         int  number, right_digit;
         NSMutableString *mutableString = [NSMutableString new];
         
@@ -35,7 +40,7 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"%@", mutableString);
 
-        
+*/
     }
    
     
