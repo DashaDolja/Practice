@@ -68,7 +68,7 @@
 
     
     if (n != 0 && d != 0 && d != 1)
-            NSLog (@"The value of myFraction is: %i/%i", [myFraction numerator], [myFraction denominator]);
+        NSLog (@"The value of myFraction is: %i/%i", [myFraction numerator], [myFraction denominator]);
 
 }
 @end
