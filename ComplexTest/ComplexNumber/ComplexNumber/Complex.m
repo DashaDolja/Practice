@@ -10,24 +10,27 @@
 
 @implementation Complex
 
-- (void) setTo:(int)Re :(int)Im
+- (void) setReal:(double) a andImaginary : (double) b
 {
-    _real = Re;
-    _imaginary = Im;
+    _real = a;
+    _imaginary = b;
 }
 
-- (Complex *) add: (Complex *) ComplexNum
+- (id) newAdd: (id) f
 {
-    Complex *result = [[Complex alloc] init];
+    id result = [[Complex alloc] init];
     
-    result.real = _real + ComplexNum.real;
-    result.imaginary = _imaginary + ComplexNum.imaginary;
+    SEL setComplex = @selector (setReal:andImaginary:);
+    double newReal = _real + [f real];
+    double newImaginary = _imaginary + [f imaginary];
     
+    [result setReal:newReal andImaginary:newImaginary];
+   // [result performSelector: setComplex withObject: [NSNumber numberWithDouble: newReal] withObject: [NSNumber numberWithDouble:newImaginary]];
     return result;
 }
 
 - (void) print
 {
-    NSLog (@"%i + %ii", _real, _imaginary);
+    printf ("\n%g + %gi", _real, _imaginary);
 }
 @end

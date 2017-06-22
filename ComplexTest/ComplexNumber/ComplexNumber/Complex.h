@@ -10,10 +10,10 @@
 
 @interface Complex : NSObject
 
-@property int real, imaginary;
+@property double real, imaginary;
 
-- (void) setTo: (int) Re : (int) Im;
-- (Complex *) add: (Complex *) ComplexNum;
+- (void) setReal:(double) a andImaginary : (double) b;
+- (id) newAdd: (id) f;
 - (void) print;
 
 @end

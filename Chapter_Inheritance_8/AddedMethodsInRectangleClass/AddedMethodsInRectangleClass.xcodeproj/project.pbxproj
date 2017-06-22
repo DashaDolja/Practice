@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C81FB0581ED72FF3009FBE3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C81FB0571ED72FF3009FBE3B /* main.m */; };
-		C81FB0601ED73022009FBE3B /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = C81FB05F1ED73022009FBE3B /* Complex.m */; };
-		C83B62471EF91651003E3619 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = C83B62461EF91651003E3619 /* Fraction.m */; };
-		C83B624A1EFBB3D9003E3619 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C83B62491EFBB3D9003E3619 /* XYPoint.m */; };
+		C81FB06E1EDDA338009FBE3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C81FB06D1EDDA338009FBE3B /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C81FB0521ED72FF2009FBE3B /* CopyFiles */ = {
+		C81FB0681EDDA338009FBE3B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,18 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C81FB0541ED72FF2009FBE3B /* ComplexNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ComplexNumber; sourceTree = BUILT_PRODUCTS_DIR; };
-		C81FB0571ED72FF3009FBE3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C81FB05E1ED73022009FBE3B /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
-		C81FB05F1ED73022009FBE3B /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
-		C83B62451EF91651003E3619 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
-		C83B62461EF91651003E3619 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
-		C83B62481EFBB3D9003E3619 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
-		C83B62491EFBB3D9003E3619 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
+		C81FB06A1EDDA338009FBE3B /* AddedMethodsInRectangleClass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AddedMethodsInRectangleClass; sourceTree = BUILT_PRODUCTS_DIR; };
+		C81FB06D1EDDA338009FBE3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C81FB0511ED72FF2009FBE3B /* Frameworks */ = {
+		C81FB0671EDDA338009FBE3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,104 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C81FB04B1ED72FF2009FBE3B = {
+		C81FB0611EDDA338009FBE3B = {
 			isa = PBXGroup;
 			children = (
-				C81FB0561ED72FF2009FBE3B /* ComplexNumber */,
-				C81FB0551ED72FF2009FBE3B /* Products */,
+				C81FB06C1EDDA338009FBE3B /* AddedMethodsInRectangleClass */,
+				C81FB06B1EDDA338009FBE3B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C81FB0551ED72FF2009FBE3B /* Products */ = {
+		C81FB06B1EDDA338009FBE3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C81FB0541ED72FF2009FBE3B /* ComplexNumber */,
+				C81FB06A1EDDA338009FBE3B /* AddedMethodsInRectangleClass */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C81FB0561ED72FF2009FBE3B /* ComplexNumber */ = {
+		C81FB06C1EDDA338009FBE3B /* AddedMethodsInRectangleClass */ = {
 			isa = PBXGroup;
 			children = (
-				C81FB0571ED72FF3009FBE3B /* main.m */,
-				C81FB05E1ED73022009FBE3B /* Complex.h */,
-				C81FB05F1ED73022009FBE3B /* Complex.m */,
-				C83B62481EFBB3D9003E3619 /* XYPoint.h */,
-				C83B62491EFBB3D9003E3619 /* XYPoint.m */,
-				C83B62451EF91651003E3619 /* Fraction.h */,
-				C83B62461EF91651003E3619 /* Fraction.m */,
+				C81FB06D1EDDA338009FBE3B /* main.m */,
 			);
-			path = ComplexNumber;
+			path = AddedMethodsInRectangleClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C81FB0531ED72FF2009FBE3B /* ComplexNumber */ = {
+		C81FB0691EDDA338009FBE3B /* AddedMethodsInRectangleClass */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C81FB05B1ED72FF3009FBE3B /* Build configuration list for PBXNativeTarget "ComplexNumber" */;
+			buildConfigurationList = C81FB0711EDDA338009FBE3B /* Build configuration list for PBXNativeTarget "AddedMethodsInRectangleClass" */;
 			buildPhases = (
-				C81FB0501ED72FF2009FBE3B /* Sources */,
-				C81FB0511ED72FF2009FBE3B /* Frameworks */,
-				C81FB0521ED72FF2009FBE3B /* CopyFiles */,
+				C81FB0661EDDA338009FBE3B /* Sources */,
+				C81FB0671EDDA338009FBE3B /* Frameworks */,
+				C81FB0681EDDA338009FBE3B /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ComplexNumber;
-			productName = ComplexNumber;
-			productReference = C81FB0541ED72FF2009FBE3B /* ComplexNumber */;
+			name = AddedMethodsInRectangleClass;
+			productName = AddedMethodsInRectangleClass;
+			productReference = C81FB06A1EDDA338009FBE3B /* AddedMethodsInRectangleClass */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C81FB04C1ED72FF2009FBE3B /* Project object */ = {
+		C81FB0621EDDA338009FBE3B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Dasha;
 				TargetAttributes = {
-					C81FB0531ED72FF2009FBE3B = {
+					C81FB0691EDDA338009FBE3B = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = C81FB04F1ED72FF2009FBE3B /* Build configuration list for PBXProject "ComplexNumber" */;
+			buildConfigurationList = C81FB0651EDDA338009FBE3B /* Build configuration list for PBXProject "AddedMethodsInRectangleClass" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C81FB04B1ED72FF2009FBE3B;
-			productRefGroup = C81FB0551ED72FF2009FBE3B /* Products */;
+			mainGroup = C81FB0611EDDA338009FBE3B;
+			productRefGroup = C81FB06B1EDDA338009FBE3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C81FB0531ED72FF2009FBE3B /* ComplexNumber */,
+				C81FB0691EDDA338009FBE3B /* AddedMethodsInRectangleClass */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C81FB0501ED72FF2009FBE3B /* Sources */ = {
+		C81FB0661EDDA338009FBE3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C81FB0601ED73022009FBE3B /* Complex.m in Sources */,
-				C81FB0581ED72FF3009FBE3B /* main.m in Sources */,
-				C83B62471EF91651003E3619 /* Fraction.m in Sources */,
-				C83B624A1EFBB3D9003E3619 /* XYPoint.m in Sources */,
+				C81FB06E1EDDA338009FBE3B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C81FB0591ED72FF3009FBE3B /* Debug */ = {
+		C81FB06F1EDDA338009FBE3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -192,7 +174,7 @@
 			};
 			name = Debug;
 		};
-		C81FB05A1ED72FF3009FBE3B /* Release */ = {
+		C81FB0701EDDA338009FBE3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,14 +215,14 @@
 			};
 			name = Release;
 		};
-		C81FB05C1ED72FF3009FBE3B /* Debug */ = {
+		C81FB0721EDDA338009FBE3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		C81FB05D1ED72FF3009FBE3B /* Release */ = {
+		C81FB0731EDDA338009FBE3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -250,25 +232,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C81FB04F1ED72FF2009FBE3B /* Build configuration list for PBXProject "ComplexNumber" */ = {
+		C81FB0651EDDA338009FBE3B /* Build configuration list for PBXProject "AddedMethodsInRectangleClass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C81FB0591ED72FF3009FBE3B /* Debug */,
-				C81FB05A1ED72FF3009FBE3B /* Release */,
+				C81FB06F1EDDA338009FBE3B /* Debug */,
+				C81FB0701EDDA338009FBE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C81FB05B1ED72FF3009FBE3B /* Build configuration list for PBXNativeTarget "ComplexNumber" */ = {
+		C81FB0711EDDA338009FBE3B /* Build configuration list for PBXNativeTarget "AddedMethodsInRectangleClass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C81FB05C1ED72FF3009FBE3B /* Debug */,
-				C81FB05D1ED72FF3009FBE3B /* Release */,
+				C81FB0721EDDA338009FBE3B /* Debug */,
+				C81FB0731EDDA338009FBE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C81FB04C1ED72FF2009FBE3B /* Project object */;
+	rootObject = C81FB0621EDDA338009FBE3B /* Project object */;
 }
